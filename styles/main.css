@@ -5,7 +5,7 @@ body {
 h1 {color: #333}
 
 h2 {color: #555}
-p {background: none;
+p, li {background: none;
 color: white;
 padding: 10px}
 
