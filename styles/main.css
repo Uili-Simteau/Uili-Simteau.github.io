@@ -1,6 +1,14 @@
 body {
   background:#999;
-  font-family:arial;
+  font-family: arial;
 }
-h1, h2, p {color: #555}
+h1, h2 {color: #555}
 
+p {background: none;
+color: white;
+padding: 10px}
+
+.secondary{
+  background: #666;
+  color: #333;
+}
