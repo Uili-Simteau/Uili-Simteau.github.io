@@ -2,8 +2,9 @@ body {
   background:#999;
   font-family: arial;
 }
-h1, h2 {color: #555}
+h1 {color: #333}
 
+h2 {color: #555}
 p {background: none;
 color: white;
 padding: 10px}
@@ -14,4 +15,8 @@ padding: 10px}
 }
 #special {
   color: blue;
+}
+
+a {
+  color: #444;
 }
