@@ -2,6 +2,11 @@ body {
   background-color: #EEEEEE;
 }
 
+a {
+  text-decoration: none;
+  color: #999;
+}
+
 #container {
   background-color: #EEEEEE;
   width: 800px;
@@ -23,6 +28,15 @@ body {
 #nav {
   width: 180px;
   float: left;
+}
+
+#nav ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.selected {
+  font-weight: bold;
 }
 
 #main {
