@@ -1,6 +1,7 @@
 body {
-  background:#999;
+  background-image: url("images/IMG_9764.png")#999;
   font-family: arial;
+  padding: 20px
 }
 h1 {color: #333}
 
