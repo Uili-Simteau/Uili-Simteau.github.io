@@ -20,7 +20,7 @@ h1, h2, h3 {
 
 #container {
   background-color: none;
-  width: 800px;
+  width: 900px;
   margin-left: auto;
   margin-right: auto;
   color: #999;
@@ -48,6 +48,7 @@ h1, h2, h3 {
 #nav ul {
   list-style-type: none;
   padding: 0px;
+  float: left;
 }
 
 .selected {
