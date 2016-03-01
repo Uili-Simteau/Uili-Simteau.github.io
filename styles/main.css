@@ -1,5 +1,5 @@
 body {
-  background-color: #EEEEEE;
+  background-color: none;
   background-image: url('../images/IMG_9764.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,18 +16,20 @@ h1, h2, h3 {
 }
 
 #container {
-  background-color: #EEEEEE;
-  width: 800px;
+  background-color: none;
+  width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  color: #999;
 
 }
 
 #headder {
   background-color: #999;
-  color: 'white';
-  text-align:center;
-  padding: 10px;
+  color: #333;
+  text-align:left;
+  padding: 30px 10px 5px 10px;
+
 } 
 
 #content {
@@ -49,15 +51,15 @@ h1, h2, h3 {
 }
 
 #main {
-  width: 600px;
+  width: 800px;
   float:right;
 }
 
 #footer {
     clear: both;
     padding: 10px;
-    background-color:#999;
+    background-color:none;
     color: 'white';
-    text-align: right;
+    text-align: center;
 }
  
