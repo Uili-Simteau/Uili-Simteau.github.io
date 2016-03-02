@@ -25,7 +25,7 @@ a {
   color: #999;
 }
 
-h1, h2, h3, li {
+h1, h2, h3 {
   margin: 0px;
   font-family: Helvetica, Arial, sans-serif;
   color: #333;
@@ -59,12 +59,14 @@ h1, h2, h3, li {
 #nav {
   width: 30%;
   float: left;
+
 }
 
 #nav ul {
   list-style-type: none;
   padding: 0px;
   float: left;
+  background-color: transparent;
 }
 
 .selected {
