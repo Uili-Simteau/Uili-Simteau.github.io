@@ -46,16 +46,18 @@ h1, h2, h3 {
   color: #333;
   text-align:left;
   padding: 30px 10px 5px 10px;
+  width: 100%
 
 } 
 
 #content {
   padding:10px;
   display: flex;
+  width: 100%
 }
 
 #nav {
-  width: 16.66%;
+  width: 25%;
   float: left;
 }
 
