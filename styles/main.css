@@ -15,6 +15,10 @@ body {
   color: #222;
 }
 
+meta {
+  display: none;
+}
+
 .container {
   max-width: 800px;
 }
@@ -54,4 +58,8 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   text-align: center;
   margin: 2.5rem auto 0;
+}
+
+img {
+  border: 0;
 }
