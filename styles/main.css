@@ -41,7 +41,14 @@ meta {
   text-align: center;
 }
 
-d
+nav {
+  display: block;
+  list-style: none; 
+}
+
+div {
+  display: block;
+}
 
 a {
   position: centre;
