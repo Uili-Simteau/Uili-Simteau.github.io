@@ -5,3 +5,20 @@ html {
   font-size: 62.5%;
   font-family: sans-serif;
 }
+
+.value-img {
+  display: block;
+  text-align: center;
+  margin: 2.5rem auto0;
+}
+
+.container {
+
+  max-width: 800px;
+}
+
+@media (min-height: 400px)
+.container{
+  width: 85%;
+  padding: 0;
+}
