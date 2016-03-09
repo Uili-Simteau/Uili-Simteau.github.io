@@ -56,7 +56,8 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
-.value-img {
+.value-prop {
+  max-width: 800px;
   display: block;
   text-align: center;
   margin: 2.5rem auto 0;
