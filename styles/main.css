@@ -58,16 +58,25 @@ body {
   height: 100px;
   background-color:#444;
   background: cover;
+  top: 0;
   width: 100%;
   z-index: 10;
   position: fixed;
 }
 .content {
   background-color: #eee;
+  position: relative;
 }
 .nav {
+  float: right;
   display: block;
   list-style: none;
+}
+
+#banner {
+  width: 100%;
+  position: fixed;
+  height: 100px;
 }
 
 div {
@@ -124,7 +133,7 @@ img {
 
 #menu > ul > li {
   display: inline-block;
-  float: left;
+  float: right;
   margin: 0;
 }
 
