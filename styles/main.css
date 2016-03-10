@@ -27,10 +27,6 @@ meta {
   display: none;
 }
 
-li {
-  display: none;
-}
-
 .container {
   max-width: 800px;
 }
