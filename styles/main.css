@@ -90,6 +90,10 @@ body {
   padding: auto;
 }
 
+.img {
+  padding: 20px;
+}
+
 div {
   display: block;
 }
