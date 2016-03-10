@@ -51,7 +51,7 @@ meta {
 .content {
   background-color: #eee;
 }
-nav {
+.nav {
   display: block;
   list-style: none;
 }
