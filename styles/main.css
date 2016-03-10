@@ -8,6 +8,7 @@ head {
 }
 
 body {
+  text-align: center;
   font-size: 1.5em;
   line-height: 1.6;
   font-weight: 400;
@@ -36,8 +37,15 @@ meta {
   width: 85%;
   padding: 0;
 }
+body {
+  text-align: centre;
+}
 }
 
+.logo {
+  float: left;
+
+}
 .container {
   position: relative;
   margin: auto;
@@ -47,6 +55,12 @@ meta {
 .header {
   margin-top: 6rem;
   text-align: center;
+  height: 100px;
+  background-color:#444;
+  background: cover;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
 }
 .content {
   background-color: #eee;
