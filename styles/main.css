@@ -25,6 +25,7 @@ footer {
   float: right;
   position: relative;
   float: bottom;
+  clear: both;
 }
 
 meta {
