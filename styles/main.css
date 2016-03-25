@@ -28,9 +28,10 @@ footer {
 meta {
   display: none;
 }
-.navbar {
+.navbar, .navbar-list, .navbar-link, .navbar-item {
   display: block;
   list-style: none;
+
 
 }
 .container {
