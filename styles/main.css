@@ -1,6 +1,6 @@
 html {
   font-size: 62.5%;
-  font-family: sans-serif;
+  font-family: lato, sans-serif;
 }
 
 head {
@@ -13,7 +13,7 @@ body {
   font-size: 1.5em;
   line-height: 1.6;
   font-weight: 400;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: lato, Helvetica, Arial, sans-serif;
   color: #222;
   padding: 20px
 }
