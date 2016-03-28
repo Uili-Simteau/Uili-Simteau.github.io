@@ -31,7 +31,9 @@ h1 {
 meta {
   display: none;
 }
-
+.navbar {
+  display: inline;
+}
 
 .navbar, .navbar-list, .navbar-link, .navbar-item, a {
   top: 0px;
@@ -39,16 +41,19 @@ meta {
   width: 100%;
 
   position: relative;
-  display: inline-block;
-  list-style: none;
+  display: inline;
+  list-style-type: none;
   text-decoration: none;
   float: left;
   text-align: left;
+  margin: 0px;
+  padding: 0px;
 
 
 }
 .container {
   max-width: 800px;
+
 }
 
 @media (min-width: 400px) {
