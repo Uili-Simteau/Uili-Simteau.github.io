@@ -11,16 +11,14 @@
   </head>
   <body>
     <div class="container">
-      <section class="header">
-        <div class="navbar-spacer"></div>
-        <nav class="navbar">
-
-          <h1>Uili F.</h1>
-          <ul class="navbar-list">
-            <li class="navbar-item"><a class="navbar-link" href="../index.html">Home</a></li>
-            <li class="navbar-item"><a href="#">Blogs</a>
+      <div class="twelve columns heading">
+        <nav>
+          <div id="menu">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li class="has-sub"><a href="#">Blogs</a>
               <ul>
-                <li class="navbar-item"><a href="#">Caltural blog</a>
+                <li class="has-sub"><a href="#">Caltural blog</a>
                   <ul>
                     <li class="navbar-item"><a href="c1-reflection-blog.html">Reflection</a></li>
                     <li class="navbar-item"><a href="c1-time-and-habits-blog.html">Time and Habits</a></li>
@@ -29,69 +27,61 @@
                     <li class="navbar-item"><a href="c4-daily-mindfulness.html">Daily Mindfulness</a></li>
                     <li class="navbar-item"><a href="c5-self-confidence.html">Self-Confidence</a></li>
                   </ul>
-                <li class="navbar-item"><a href="#">Technical</a>
+                </li>
+                <li class="has-sub"><a href="#">Technical</a>
                   <ul>
-                    <li class="navbar-item"><a href="t2-html-css-dom-p1.html">HTML-CSS-DOM Part 1</a></li>
-                    <li class="navbar-item"><a href="t2-html-css-dom-p2.html">HTML-CSS-DOM Part 2</a></li>
-                    <li class="navbar-item"><a href="t3-design-to-web-blog.html">Design to Web</a></li>
-                    <li class="navbar-item"><a href="t4-javascript-basics.html">Javascript Basics</a></li>
+                    <li><a href="t2-html-css-dom-p1.html">HTML-CSS-DOM Part 1</a></li>
+                    <li class="last"><a href="t2-html-css-dom-p2.html">HTML-CSS-DOM Part 2</a></li>
+                    <li><a href="t3-design-to-web-blog.html">Design to Web</a></li>
+                    <li class="last"><a href="t4-javascript-basics.html">Javascript Basics</a></li>
                     <li class="navbar-item"><a href="t5-problem-solving.html">Problem Solving</a></li>
                     <li class="navbar-item"><a href="t6-js-language.html">JS Language</a></li>
                   </ul>
                 </li>
               </ul>
             </li>
-            <li class="navbar-item"><a href="#">About Uili</a></li>
-            <li class="navbar-item"><a href="#">Contact</a></li>
+            <li><a href="#">About Uili</a></li>
+            <li class="last"><a href="#">Contact</a></li>
           </ul>
-
+          </div>
         </nav>
-        </section>
+        </div>
         <div class="image">
            <img class="value-img" src="../images/IMG_9764.png" alt="Nice photo of stormtrooper down!">
-       <h5>You should watch your JS language Trooper.</h5>
+       <h5> Stormtrooper down!</h5>
           </div>
       </div>
-      <p></p>
-      <p></p>
       <div class="content">
         <h2 class="docs-header">JS Language</h2>
           <p><strong>Describe to your non-tech friend all the use cases, in the JavaScript language, for each of the following:</strong></p>
           <p></p>
           <p><strong>parentheses () -</strong>These are used to group and contain elements used in statements and functions.<p>
           </p>
-          <p><strong>Online definition -</strong> Grouping and containing expressions and parameters. Parentheses have multiple functions relating to functions and structures. They are used to contain a list of parameters passed to functions and control structures and they are used to group expressions to control the order of execution. Some functions have no parameters and in this case, the space between parentheses is blank. - <a href="http://processingjs.org/reference/parentheses/">refernce.</a></p>
+          <p><strong>Online definition -</strong> Grouping and containing expressions and parameters. Parentheses have multiple functions relating to functions and structures. They are used to contain a list of parameters passed to functions and control structures and they are used to group expressions to control the order of execution. Some functions have no parameters and in this case, the space between parentheses is blank. - <a href="http://processingjs.org/reference/parentheses/">reference.</a></p>
           <p></p>
-            <ul>
-              <li>They are used to group expressions in a statement: a = (4 + 3 )
-               * 2;</li>
-              <li>They contain expressions in a conditional statement of a formula:
-              if (a > 10) { doSomething};</li>
-              <li>They can also contain a list of parameters:
-              line(a, 0, a, 100);</li>
+              <p>They are used to group expressions in a statement: a = (4 + 3 )
+               * 2;</p>
+              <p>They contain expressions in a conditional statement of a formula:
+              if (a > 10) { doSomething};</p>
+              <p>They can also contain a list of parameters:
+              line(a, 0, a, 100);</p>
             </ul>
-            <p></p>
+            <div></div>
           <p><strong>Square Brackets [] - </strong>These encase declared arrays, and are used when accessing those arryas.</p>
           <p></p>
           <p><strong>Online definition -</strong> The array access operator is used to specify a location within an array. The data at this location can be defined with the syntax array[element] = value or read with the syntax value = array[element]. - <a href=http://processingjs.org/reference/array%20access/>reference.</a></p>
           <p></p>
-          <ul>
-              <li>var peopleInClass = ["Tim", "Bridget", "Bob", "Margaret"];</li>
-              <li>to call "Bob", as Sue's father, from the array: var fatherOfSue = peopleInClass[2];</li>
-              <li>They can also contain a list of parameters:
-              line(a, 0, a, 100);</li>
-            </ul>
+          <p>var peopleInClass = ["Tim", "Bridget", "Bob", "Margaret"];</p>
+          <p>to call "Bob", as Sue's father, from the array: var fatherOfSue = peopleInClass[2];</p>
+          <p>They can also contain a list of parameters:
+          line(a, 0, a, 100);</p>
           <p></p>
           <p><strong>Braces {} - </strong> These define the beginnning and end of function blocks such as the for() and if() structures. they're also used for defining initial values in array declarations. They wrap around the code defining objects. </p>
-          <ul>
-            <li>myFunction() {doSomething};</li>
-            <li>int[] a = { 5, 20, 25, 45, 70 };</li>
-          </ul>
+          <p>myFunction() {doSomething};</p>
+          <p>int[] a = { 5, 20, 25, 45, 70 };</p>
           <p></p>
           <P><strong>single quotes '' - </strong>These define string literal statements.</P>
-          <ul>
-            <li>var d = "dog";</li>
-          </ul>
+          <p>var d = "dog";</p>
           <p></p>
           <P><strong>double quotes "" - </strong>The use of these is the same as single quote. Note: consistancy of use is important though, they are not interchangable in one statement.</P>
       </div>
