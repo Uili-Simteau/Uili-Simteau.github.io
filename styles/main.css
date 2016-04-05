@@ -8,6 +8,8 @@ head {
 }
 
 body {
+  width: 100%;
+  height: 100%;
   text-align: center;
   margin: auto;
   font-size: 1.5em;
@@ -15,26 +17,70 @@ body {
   font-weight: 400;
   font-family: lato, Helvetica, Arial, sans-serif;
   color: #222;
-  padding: 20px
+  padding: 20px;
 }
-.content {
-  margin-top: 50px;
+
+.container {
+  width: 100%;
+  margin: 0 auto;
 }
-nav {
+
+.header {
+  background-color: white;
+  width: 100%;
+  top: 0;
+  opacity: 0.6;
+  z-index: 100;
   position: fixed;
-  text-align: center;
-  display: inline-flex;
+  color: #000;
+
 }
+
+.logo {
+  float: right;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  top: 150px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 250px;
+  background-color: #eee;
+  z-index: 50;
+  opacity: 0.85;
+  color: #000;
+  position: relative;
+}
+
+
+
+.nav {
+  float: left;
+}
+
+ul {
+  float: left;
+  margin-left: 15px;
+  padding-top: 10px;
+}
+
 footer {
   background: #eee;
   border-radius: 5px;
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, .25);
   clear: both;
+  bottom: 0;
 }
 h1 {
   text-align: left;
   float: left;
 }
+
 meta {
   display: none;
 }
@@ -46,10 +92,8 @@ meta {
   margin-top: 0px;
   left: auto;
   width: 100%;
-
   position: fixed;
-  display:
-block;
+  display: block;
   list-style-type: none;
   text-decoration: none;
   float: left;
@@ -63,68 +107,31 @@ ul {
 }
 
 
-.container {
-  margin-top: 20px;
-  max-width: 800px;
-}
-
 @media (min-width: 400px) {
   .container {
   width: 85%;
   padding: 0;
 }
+
 body {
   text-align: center;
 }
+
 .logo {
   text-align: center;
 }
 }
 
-.logo {
-  float: left;
 
-}
-.container {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  box-sizing: border-box;
-}
 
-.header {
-  display: inline-block;
-  margin-top: 0px;
-  text-align: center;
-  height: 100px;
-  background-color:transparent;
-  background: cover;
-  opacity: 0.6;
-  top: 0;
-  width: 100%;
-  z-index: 10;
-  position: relative;
-  border-bottom: thin solid #999;
-}
-.content {
-  top: 100px;
-  background-color: #eee;
-  position: relative;
-  opacity: 0.7;
-  color: #000;
-}
-.nav {
-    display: block;
-  list-style: none;
-  text-decoration: none;
-}
+
 
 #banner {
   top: 100px;
   width: 100%;
   position: fixed;
   height: 100px;
-  z-index: -100;
+  z-index: -10;
   padding: auto;
 }
 
