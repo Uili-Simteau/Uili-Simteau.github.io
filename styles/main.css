@@ -1,6 +1,6 @@
 html {
   font-size: 62.5%;
-  font-family: lato, sans-serif;
+  font-family: "Helvetica", "lato", sans-serif;
 }
 
 head {
@@ -46,7 +46,7 @@ a {
 }
 
 .content {
-  top: 150px;
+  top: 350px;
   width: 100%;
   margin: 0 auto;
   margin-top: 250px;
@@ -163,7 +163,7 @@ img {
   border: 0;
   max-width: 100%;
   border-radius: 50%;
-  max-height: 200px;
+  max-height: 400px;
 }
 
 .navbar,
