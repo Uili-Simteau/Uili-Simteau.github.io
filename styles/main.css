@@ -7,6 +7,9 @@ head {
   display: none;
 }
 
+h1 {
+  font-size:
+}
 body {
   width: 90%;
   height: 100%;
@@ -39,9 +42,6 @@ body {
   color: #000;
 
 }
-
-.logo {
-  float: right;
 
 }
 
