@@ -50,11 +50,13 @@ a {
   width: 100%;
   margin: 0 auto;
   margin-top: 250px;
-  background-color: #eee;
+  background-color: hsl(0, 0%, 100%);
   z-index: 50;
   opacity: 0.85;
   color: #000;
   position: relative;
+  box-shadow: 0.5em 0.5em 0.5em #888888;
+
 }
 
 
@@ -109,17 +111,17 @@ ul {
 
 @media (min-width: 400px) {
   .container {
-  width: 85%;
-  padding: 0;
-}
+    width: 85%;
+    padding: 0;
+  }
 
-body {
-  text-align: center;
-}
+  body {
+    text-align: center;
+  }
 
-.logo {
-  text-align: center;
-}
+  .logo {
+    text-align: center;
+  }
 }
 
 
@@ -138,6 +140,8 @@ body {
 .img {
   padding: 20px;
   text-align: center;
+  box-shadow: 0.5em 0.5em 0.5em #888888;
+
 }
 
 div {
@@ -164,6 +168,8 @@ img {
   max-width: 100%;
   border-radius: 50%;
   max-height: 400px;
+  box-shadow: 0.5em 0.5em 0.5em #888888;
+
 }
 
 .navbar,
