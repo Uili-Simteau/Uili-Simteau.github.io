@@ -29,4 +29,6 @@ if (wScroll > $('.largeWindow').offset().top - $(window).height()) {
 
 $("button").click("animated hinge");
 
+
+
 });
