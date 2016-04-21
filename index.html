@@ -1,75 +1,133 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Uili Fecteau - Web Developer</title>
+  <title>Three Little Wigs</title>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE-=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
-  <link rel="stylesheet" type="text/css" href="styles/main.css">
+  <link rel="stylesheet" type="text/css" href="styles/TLWmain.css">
+  <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </head>
 <body>
-  <div class="ten columns heading">
-  <div class="header" class="twelve columns heading">
-    <div class="container">
-      <div class ="nav">
-        <div id="menu">
-
-        <h1 href="index.html">Uili F</h1>
-
-          <ul>
-            <li><a href="index.html">Home</a></li>
-
-
-                <li class="has-sub"><a href="#">Cultural blogs</a>
-                  <ul>
-                    <li><a href="blog/c1-reflection-blog.html">Reflection</a></li>
-                    <li><a href="blog/c1-time-and-habits-blog.html">Time and Habits</a></li>
-                    <li><a href="blog/c2-emotional-intelligence.html">Emotional Intelligence</a></li>
-                    <li><a href="blog/c3-meditation-process.html">Meditation Process</a></li>
-                    <li><a href="blog/c4-daily-mindfulness.html">Daily Mindfulness</a></li>
-                    <li class="navbar-item"><a href="blog/c5-self-confidence.html">Self-Confidence</a></li>
-                    <li class="navbar-item"><a href="blog/c6-control.html">Control</a></li>
-                    <li class="navbar-item"><a href="blog/c7-motivation.html">Motivation</a></li>
-                    <li class="navbar-item"><a href="blog/c8-connecting.html">Connecting</a></li>
-                  </ul>
-                </li>
-                <li class="has-sub"><a href="#">Technical Blogs</a>
-                  <ul>
-                    <li><a href="blog/t2-html-css-dom-p1.html">HTML-CSS-DOM Part 1</a></li>
-                    <li><a href="blog/t2-html-css-dom-p2.html">HTML-CSS-DOM Part 2</a></li>
-                    <li><a href="blog/t3-design-to-web-blog.html">Design to Web</a></li>
-                    <li class="last"><a href="blog/t4-javascript-basics.html">Javascript Basics</a></li>
-                    <li class="navbar-item"><a href="blog/t5-problem-solving.html">Problem Solving</a></li>
-                    <li class="navbar-item"><a href="blog/t6-js-language.html">JS Language</a></li>
-                    <li class="navbar-item"><a href="blog/t6-testing.html">Scope</a></li>
-                  </ul>
-                </li>
-
-
-            <li><a href="#">About Uili</a></li>
-            <li class="last"><a href="#">Contact</a></li>
-          </ul>
+    <header class="trooper-box">
+    <div class="menu">
+      <div class="backTrooper">
+        <div class="logo">UILI</div>
+        <div class="contentWrap">
+          <nav>
+            <a href="#aboutMe">About Me</a>
+            <a href="">Projects</a>
+            <a href="#blogs">Blogs</a>
+            <a href="">Contact</a>
+          </nav>
         </div>
       </div>
+      <h1><span class="title">Uili Fecteau</span></h1>
+      <p class="kicker">Thinker//Developer//Maker</p>
     </div>
-  </div>
-  <div id="banner" class="twelve columns heading">
-      <div class="image">
-        <img class="value-img" src="images/uili-fecteau-profile-picture.jpg" alt="Nice photo of Uili">
-        <h5> Nice guy, can code, will work for money:)</h5>
-      </div>
-  </div>
-  <div class="content" class="twelve columns heading">
-    <div class="container">
-    <h6 class="docs-header">I'm Uili Fecteau</h6>
+  </header>
+  <div class="section">
+    <h3 id="aboutMe">About UILI</h3>
     <p>This site is about my learning process as a Web Developer. A benchmark for how far I have come by the time I get to the end of Bootcamp.</p>
     <p>It will document my growth and reflections over my time with Enspiral Dev Academy through <u>blog posts</u>.</p>
     <p>This is also a <u>portfolio platform</u> for the projects I will cut my teeth on.</p>
     <p>Ultimately, this might be what I use to show potential employers and clients.</p>
+  </div >
+  <div class="largeWindow"></div>
+  <hr/>
+  <div class="projects">
+  <h3>Projects</h3>
+  </div>
+  <hr/>
+  <div id="blogs" id="blogs">
+    <h3>Blogs - What I Think</h3>
+    <div class="row" class="blog-row">
+      <div class="three columns">
+        <button><a href="blog/c1-reflection-blog.html">Reflection</a></button>
+      </div>
+      <div class="three columns">
+        <button><a href="blog/c1-time-and-habits-blog.html">Time and Habits</a></button>
+      </div>
+      <div class="three columns">
+        <button><a href="blog/c2-emotional-intelligence.html">Emotional Intelligence</a></button>
+      </div>
+      <div class="three columns">
+        <button><a href="blog/c3-meditation-process.html">Meditation Process</a></button>
+      </div>
+    </div>
+    <div class="row" class="blog-row">
+      <div class="three columns">
+        <button><a href="blog/c4-daily-mindfulness.html">Daily Mindfulness</a></button>
+      </div>
+      <div class="three columns">
+        <button><a href="blog/c5-self-confidence.html">Self-Confidence</a></button>
+      </div>
+      <div class="three columns">
+        <button><a href="blog/c6-control.html">Control</a></button>
+      </div>
+      <div class="three columns">
+        <button><a href="blog/c7-motivation.html">Motivation</a></button>
+      </div>
+    </div>
+    <div class="row" class="blog-row">
+      <div class="three columns">
+        <button><a href="blog/c8-connecting.html">Connecting</a></button>
+      </div>
+      <div class="three columns">
+        <button><a href="blog/t2-html-css-dom-p1.html">HTML-CSS-DOM Part 1</a></button>
+      </div>
+      <div class="three columns">
+        <button><a href="blog/t2-html-css-dom-p2.html">HTML-CSS-DOM Part 2</a></button>
+      </div>
+      <div class="three columns">
+        <button><a href="blog/t3-design-to-web-blog.html">Design to Web</a></button>
+      </div>
+    </div>
+
+    <div class="row" class="blog-row">
+      <div class="three columns">
+        <button><a href="blog/t4-javascript-basics.html">Javascript Basics</a></button>
+      </div>
+      <div class="three columns">
+        <button><a href="blog/t5-problem-solving.html">Problem Solving</a></button>
+      </div>
+      <div class="three columns">
+        <button><a href="blog/t6-js-language.html">JS Language</a></button>
+      </div>
+      <div class="three columns">
+        <button><a href="blog/t6-testing.html">Scope</a></button>
+      </div>
+    </div>
+    <div class="row" class="blog-row">
+      <div class="three columns">
+        <button></button>
+      </div>
+      <div class="three columns">
+        <button></button>
+      </div>
+      <div class="three columns">
+        <button></button>
+      </div>
+      <div class="three columns">
+        <button></button>
+      </div>
     </div>
   </div>
+<script src="scriptTLW.js"></script>
+<footer>
+  <div class="bottomMenu">
+    <div class="logo">UILI</div>
+    <nav>
+      <a href="#aboutMe">About Me</a>
+      <a href="">Work</a>
+      <a href="">Projects</a>
+      <a href="">Contact</a>
+    </nav>
   </div>
+  <p class="copyright">All Content &copy; 2016</p>
+</footer>
 </body>
 </html>
