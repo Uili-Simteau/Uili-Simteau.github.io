@@ -42,28 +42,33 @@ box-shadow: 0.5em 0.5em 0.5em #888888;*/
 }
 
 .tiePilot{
-  background: url(../images/tie-pilot.png) center;
+  background: url(../images/tie-pilot.png) center top;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .hand-attack{
-  background: url(../images/hand-attack.png) center;
+  background: url(../images/hand-attack.png) center top;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .IMG_9764{
-  background: url(../images/IMG_9764.png) center;
+  background: url(../images/IMG_9764.png) center top;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .stormtrooper-tank{
-  background: url(../images/stormtrooper-tank.jpg) center;
+  background: url(../images/stormtrooper-tank.jpg) center top;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .group{
-  background: url(../images/group.png) center;
+  background: url(../images/group.png) center top;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 }
