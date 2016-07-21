@@ -23,7 +23,6 @@ $('.foreTrooper').css({
 if (wScroll > $('.largeWindow').offset().top - $(window).height()) {
   console.log("hell no");
   $('.largeWindow').css({'background-position':'center '+ (wScroll - $('.largeWindow').offset().top) +'px'});
-
 }
 });
 
