@@ -286,3 +286,18 @@ a{
 a:hover{
   color: rgba(0,0,0,0.7);
 }
+
+ul#social {
+    padding: 0;
+    display: inline;
+}
+ul#social li {
+    display: inline;
+}
+ul#social li a {
+    padding: 10px 20px;
+    text-decoration: none;
+}
+ul#social li a:hover {
+    border: dotted 1px darkcyan;
+}
