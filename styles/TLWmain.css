@@ -200,7 +200,7 @@ h1 span{
   height: 400px;
 }
 
-#blogBtn{
+#blogBtn:hover {
   animation: wiggle 0.4s linear 1;
     animation-name: wiggle;
     animation-duration: 0.4s;
