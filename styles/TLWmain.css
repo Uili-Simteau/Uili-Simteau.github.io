@@ -85,6 +85,17 @@ box-shadow: 0.5em 0.5em 0.5em #888888;*/
   border-radius: 30%;
 }
 
+.title:hover {
+  animation: wiggle 0.4s linear 1;
+    animation-name: wiggle;
+    animation-duration: 0.4s;
+    animation-timing-function: linear;
+    animation-delay: initial;
+    animation-iteration-count: 1;
+    animation-direction: initial;
+    animation-fill-mode: initial;
+    animation-play-state: initial;
+}
 
 nav{
   float: right;
