@@ -240,9 +240,16 @@ ul{
   text-decoration: none;
   color: white;
   background: transparent;
-
 }
 
+.comntact ul{
+  text-decoration: none;
+}
+
+.contact li {
+  display: inline;
+  text-decoration: none;
+}
 
 .copyright{
   width: 200px;
