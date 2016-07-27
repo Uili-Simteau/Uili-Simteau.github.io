@@ -242,11 +242,11 @@ ul{
   background: transparent;
 }
 
-.comntact ul{
+#contact ul{
   text-decoration: none;
 }
 
-.contact li {
+#contact li {
   display: inline;
   text-decoration: none;
 }
@@ -305,6 +305,6 @@ ul#social li a {
     padding: 10px 20px;
     text-decoration: none;
 }
-ul#social li a:hover {
+ul# li a:hover {
     border: dotted 1px darkcyan;
 }
