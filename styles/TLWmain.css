@@ -19,7 +19,10 @@ body {
   font-family: 'Inconsolata', sans-serif;
   margin: auto;
 }
-
+.contentWrap{
+  display: flex;
+  justify-content: center;
+}
 .projectInfo{
   max-width: 300px;
   padding-top: 20px;
