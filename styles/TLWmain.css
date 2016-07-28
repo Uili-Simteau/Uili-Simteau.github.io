@@ -295,6 +295,10 @@ a{
   background: transparent;
 }
 
+.projectA{
+  color: black;
+}
+
 a:hover{
   color: rgba(0,0,0,0.7);
 }
