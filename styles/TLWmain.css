@@ -10,6 +10,9 @@ body {
  width: 90%;
 }
 
+div{
+  display: block;
+}
 body {
   //  background-image: url(../images/hand-attack.png);
   //background-image: cover;
@@ -17,6 +20,11 @@ body {
   margin: auto;
 }
 
+.container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 content{
   position: relative;
   z-index: 2;
@@ -87,18 +95,6 @@ p {
   text-align: center;
   vertical-align: middle;
   border-radius: 30%;
-}
-
-.title:hover {
-  animation: wiggle 0.4s linear 1;
-    animation-name: wiggle;
-    animation-duration: 0.4s;
-    animation-timing-function: linear;
-    animation-delay: initial;
-    animation-iteration-count: 1;
-    animation-direction: initial;
-    animation-fill-mode: initial;
-    animation-play-state: initial;
 }
 
 nav{
@@ -193,7 +189,7 @@ h1 span{
   margin-top: 100px;
 }
 
-.section{
+section{
   margin-top: 100px;
 }
 
@@ -284,7 +280,7 @@ button{
   border-radius: 20%;
 }
 
-.footerA{
+.footer{
   padding-bottom: 20px;
 }
 
