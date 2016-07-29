@@ -14,8 +14,6 @@ div{
   display: block;
 }
 body {
-  //  background-image: url(../images/hand-attack.png);
-  //background-image: cover;
   font-family: 'Inconsolata', sans-serif;
   margin: auto;
 }
@@ -48,8 +46,8 @@ header {
   background-size: cover;
   background-position: top;
   position: relative;
-  size: auto 30%;
-  position: top center;
+  size: 30%;
+  position: center;
   background-attachment: fixed;
   overflow: hidden;
 
@@ -302,6 +300,7 @@ a{
 .projectA{
   color: black;
 }
+
 
 a:hover{
   color: rgba(0,0,0,0.7);
