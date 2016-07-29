@@ -119,6 +119,7 @@ nav{
 }
 
 
+
 @media (min-width: 400px) {
   body{
     width: 100%;
@@ -163,7 +164,7 @@ p{
 h1 {
   width: 100%;
   text-align: center;
-  font-size: 72px;
+  font-size: 40px;
   font-weight: 700px;
   color: white;
   text-transform: uppercase;
@@ -177,6 +178,7 @@ h1 {
 }
 
 h1 span{
+  width: 40%;
   display: inline-block;
   padding: 0.2em 0.5em;
   border: white solid 10px;
