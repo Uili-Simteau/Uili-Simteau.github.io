@@ -38,7 +38,7 @@ content{
 }
 
 header {
-  height: 600px;
+  height: 100vh;
   width: 100%
   background-color: #ccc;
   opacity: 0.9;
