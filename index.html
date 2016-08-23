@@ -7,10 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
-  <link rel="stylesheet" type="text/css" href="styles/TLWmain.css">
   <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
   <link rel="icon" type="icon/x-icon" sizes="16x16" href="/UiliFavicon.ico">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <link rel="icon" type="image/x-icon" href="/uiliFavicon.ico">
+  <link rel="stylesheet" type="text/css" href="styles/TLWmain.css">
 </head>
 <body>
     <header class="indexPage" class="trooper-box">
@@ -31,16 +32,51 @@
   </header>
   <div class="section">
     <h3 id="aboutMe">About UILI</h3>
-    <p>This site is about my learning process as a Web Developer. A benchmark for how far I have come by the time I get to the end of Bootcamp.</p>
-    <p>It will document my growth and reflections over my time with Enspiral Dev Academy through <u>blog posts</u>.</p>
-    <p>This is also a <u>portfolio platform</u> for the projects I will cut my teeth on.</p>
-    <p>Ultimately, this might be what I use to show potential employers and clients.</p>
-  </div >
+      <p>I am a fast learning, hard working and passionate Web Developer. Ideally, I am looking for a progressive working environment to continue my exciting learning journey.
+      </p>
+      <p>While being new to the tech industry, I bring a wealth of experience, skills and talents gained through my previous employment phases. I have a mature approach to the professional workplace, balanced with a disarming sense of humour.  I get along with people easily, through my experience in working in Government, trade and retail workplaces.
+      </p>
+      <p>As a Junior Web Developer, I believe that high levels of productivity, and strong workplace satisfaction, are directly correlated with personal well-being and opportunities for continuous learning.
+      </p>
+      <p>Through my time at the <strong>Enspiral Dev Academy</strong>, I’ve been able to achieve a seismic shift in my career journey, into the tech industry. With my creative arts and academic background, I’ve found found a new set of tools to explore and express myself with.
+      </p>
+      <p>
+        With the new web dev tools I have learnt, I love building digital things, where there’s always something new to learn. This has felt like a natural progression from my interest in creating things with my hands.
+      </p>
+  </div>
   <div class="largeWindow"></div>
   <hr/>
-  <div  class="projects">
-  <h3 id="#projects">Projects</h3>
-  </div>
+  <section>
+    <div  id="projects">
+      <h3>Projects</h3>
+      <div class="projectContainer">
+        <div class="projectInfo">
+          <a class="projectA" target="_blank" href="http://www.uilifecteau.xyz/bug_catcher">
+            <h4>Bug Catcher</h4>
+            <p>
+              This is a little app I’m growing using React.js to document how many times I make the same coding errors. The idea behind this app is being able to curb habitual coding errors, and these errors early, as they become exponentially expensive to fix the longer they’re left. A work in progress.
+            </p>
+          </a>
+        </div>
+        <div class="projectInfo">
+          <a class="projectA" target="_blank" href="http://www.uilifecteau.xyz/ThreeLittleWigs">
+            <h4>Three Little Wigs</h4>
+            <p>
+              This is a small server-side web app using Node.js, Express and Knex to run two databases. It is a great platform for my back-end learning and implementation. A work in progress.
+            </p>
+          </a>
+        </div>
+        <div class="projectInfo">
+          <a class="projectA" target="_blank" href="http://www.uilifecteau.xyz/">
+            <h4>Pitch In</h4>
+            <p>
+              Stuff about worth your weight...
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
   <hr/>
   <div id="blogs">
     <h3>Blogs - What I Think</h3>
@@ -48,13 +84,13 @@
       <div class="three columns">
         <button><a href="blog/c1-reflection-blog.html">Reflection</a></button>
       </div>
-      <div class="three columns">
+      <div id="blogBtn" class="three columns">
         <button><a href="blog/c1-time-and-habits-blog.html">Time and Habits</a></button>
       </div>
-      <div class="three columns">
+      <div id="blogBtn" class="three columns">
         <button><a href="blog/c2-emotional-intelligence.html">Emotional Intelligence</a></button>
       </div>
-      <div class="three columns">
+      <div id="blogBtn" class="three columns">
         <button><a href="blog/c3-meditation-process.html">Meditation Process</a></button>
       </div>
     </div>
@@ -86,7 +122,6 @@
         <button><a href="blog/t3-design-to-web-blog.html">Design to Web</a></button>
       </div>
     </div>
-
     <div class="row" class="blog-row">
       <div class="three columns">
         <button><a href="blog/t4-javascript-basics.html">Javascript Basics</a></button>
@@ -105,29 +140,37 @@
       <div class="three columns">
         <button><a href="blog/c9-leadership.html">leadership</a></button>
       </div>
-      <div class="three columns">
-        <button></button>
-      </div>
-      <div class="three columns">
-        <button></button>
-      </div>
-      <div class="three columns">
-        <button></button>
-      </div>
     </div>
   </div>
 <script src="scriptTLW.js"></script>
 <footer>
-  <div id="contact" class="bottomMenu">
-    <div class="logo">UILI</div>
-    <nav>
-      <a href="#aboutMe">About Me</a>
-      <a href="#projects">Projects</a>
-      <a href="#blogs">blogs</a>
-      <a href="">Contact</a>
-    </nav>
+  <div class="row u-full-width">
+    <div id="contact" class="bottomMenu">
+      <div class="twelve columns">
+        <ul>
+          <li class="gitHub">
+            <a href="https://github.com/Uili-Simteau" target="_blank">
+              <img src="images/Github_64.png" alt="" />
+              <i class="fa fa-gitHub fa-lg"></i>
+            </a>
+          </li>
+          <li class="linkedIn">
+            <a href="http://www.linkedin.com/in/uili-fecteau" target="_blank">
+              <img src="images/Linkedin_64.png"
+              <i class="fa fa-linkedIn fa-lg"></i>
+            </a>
+          </li>
+          <li class="twitter">
+            <a href="https://twitter.com/Simteau" target="_blank">
+              <img src="images/Twitter_64.png"
+              <i class="fa fa-twitter fa-lg"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <span class="copyright">All Content &copy; 2016</span>
   </div>
-  <p class="copyright">All Content &copy; 2016</p>
 </footer>
 </body>
 </html>
