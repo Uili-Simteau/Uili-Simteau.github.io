@@ -1,11 +1,9 @@
 html {
- margin: 0px;
  height: 100%;
  width: 100%;
 }
 
 body {
- margin: 0px;
  min-height: 100%;
  width: 90%;
 }
@@ -28,21 +26,37 @@ body {
 
 .projectContainer{
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 content{
+  background: white;
   position: relative;
   z-index: 2;
-  background: white;
 }
 
 header {
+  animation: animate-background linear 30s infinite;
+  background-color: black;
+  background-image: url(../images/group_slice.png);
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
-  width: 100%
-  background-color: #ccc;
+  margin: 0 auto;
+  width: 100%;
+  }
+
+  @keyframes animate-background {
+  0% { background-position: 0 }
+  50% { background-position: 100%;
+        opacity: 0.2; }
+  55%{ opacity: 1.0; }
+  100% { background-position: 0 }
+  }
+  /*background-color: #ccc;
   opacity: 0.9;
-  background: url(../images/group.png) center;
+  background: url() center;
   background-size: cover;
   background-position: top;
   position: relative;
@@ -50,10 +64,9 @@ header {
   position: center;
   background-attachment: fixed;
   overflow: hidden;
-
+*/
 /*  border-radius: 50%;
 box-shadow: 0.5em 0.5em 0.5em #888888;*/
-}
 
 p {
   padding-top: 20px;
