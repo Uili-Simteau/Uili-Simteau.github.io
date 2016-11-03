@@ -194,7 +194,9 @@ h1 span{
   border: white solid 10px;
   border-radius: 20%;
   background: rgba(0,0,0,0.4);
-
+  -webkit-box-shadow: 10px 10px 49px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 49px -9px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 49px -9px rgba(0,0,0,0.75);
 }
 
 .kicker{
@@ -207,6 +209,7 @@ h1 span{
   line-height: 1;
   z-index: -3;
   margin-top: 100px;
+  font-size: 2em;
 }
 
 section{
@@ -224,6 +227,9 @@ section{
   background-repeat: repeat-y;
   background-attachment: fixed;
   border-radius: 50%;
+  -webkit-box-shadow: 10px 10px 49px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 49px -9px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 49px -9px rgba(0,0,0,0.75);
 }
 
 #blogs{
@@ -298,6 +304,9 @@ button{
   color: white;
   text-decoration: none;
   border-radius: 20%;
+  -webkit-box-shadow: 10px 10px 49px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 49px -9px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 49px -9px rgba(0,0,0,0.75);
 }
 
 .footer{

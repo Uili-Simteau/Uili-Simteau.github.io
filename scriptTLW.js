@@ -6,7 +6,7 @@ var wScroll = $(this).scrollTop();
 //console.log(wScroll);
 
 $('.title').css({
-'transform' : 'translate(0px, '+ wScroll /2 +'%)'
+'transform' : 'translate(0px, '+ wScroll /3 +'%)'
 })
 
 
