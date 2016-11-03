@@ -245,11 +245,11 @@ button:hover {
     animation-name: wiggle;
     animation-duration: 0.4s;
     animation-timing-function: linear;
-    animation-delay: initial;
+    animation-delay: 300ms;
     animation-iteration-count: 1;
-    animation-direction: initial;
-    animation-fill-mode: initial;
-    animation-play-state: initial;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
 }
 
 footer{
@@ -313,6 +313,16 @@ button{
   box-shadow: 10px 10px 49px -9px rgba(0,0,0,0.75);
 }
 
+button:hover{
+  background: rgba(0,0,0,0.0);
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+  border: none;
+  
+  
+}
+
 .footer{
   padding-bottom: 20px;
 }
@@ -345,6 +355,6 @@ ul#social li a {
     text-decoration: none;
     
 }
-ul# li a:hover {
-    border: dotted 1px darkcyan;
+ul # li a:hover {
+    border: dotted 2px darkcyan;
 }
