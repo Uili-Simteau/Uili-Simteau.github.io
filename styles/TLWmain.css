@@ -71,6 +71,9 @@ box-shadow: 0.5em 0.5em 0.5em #888888;*/
 p {
   padding-top: 20px;
 }
+#aboutMe{
+  padding-top: 20px;
+}
 
 .tiePilot{
   background: url(../images/tie-pilot.png) center top;
