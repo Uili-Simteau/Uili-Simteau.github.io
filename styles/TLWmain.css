@@ -254,7 +254,7 @@ button:hover {
 
 footer{
   height: 150px;
-  background: black;
+  background-image: url(../images/group_slice.png);
   background-size: cover;
   background-position: top;
   margin-top: 30px;
@@ -269,6 +269,7 @@ ul{
   text-decoration: none;
   color: white;
   background: transparent;
+  opacity: .7;
 }
 
 #contact ul{
@@ -331,9 +332,10 @@ a:hover{
   color: rgba(0,0,0,0.7);
 }
 
-ul#social {
+ul #social {
     padding: 0;
     display: inline;
+
 }
 ul#social li {
     display: inline;
@@ -341,6 +343,7 @@ ul#social li {
 ul#social li a {
     padding: 10px 20px;
     text-decoration: none;
+    
 }
 ul# li a:hover {
     border: dotted 1px darkcyan;
