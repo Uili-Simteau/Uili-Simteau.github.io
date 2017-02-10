@@ -401,6 +401,15 @@ ul # li a:hover {
   font: normal 11px "Helvetica Neue", Helvetica, sans-serif;
   -webkit-user-select: none; }
 
+.flip-clock-wrapper {
+    display: flex;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin: 1em;
+    justify-content: center;
+}
+
 .flip-clock-meridium {
   background: none !important;
   box-shadow: 0 0 0 !important;
