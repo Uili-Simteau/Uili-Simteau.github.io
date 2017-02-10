@@ -377,7 +377,7 @@ ul # li a:hover {
 .flip-clock-wrapper a {
   cursor: pointer;
   text-decoration: none;
-  color: #ccc; }
+  color: white; }
 
 .flip-clock-wrapper a:hover {
   color: #fff; }
