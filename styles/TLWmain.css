@@ -361,6 +361,12 @@ ul # li a:hover {
 }
 /* Get the bourbon mixin from http://bourbon.io */
 /* Reset */
+.flip-clock-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .flip-clock-wrapper * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -377,7 +383,7 @@ ul # li a:hover {
 .flip-clock-wrapper a {
   cursor: pointer;
   text-decoration: none;
-  color: black; }
+  color: white; }
 
 .flip-clock-wrapper a:hover {
   color: #fff; }
