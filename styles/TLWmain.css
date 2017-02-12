@@ -356,7 +356,7 @@ ul#social li a {
     text-decoration: none;
     
 }
-ul # li a:hover {
+ul li a:hover {
     border: dotted 2px darkcyan;
 }
 /* Get the bourbon mixin from http://bourbon.io */
@@ -365,6 +365,10 @@ ul # li a:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.death-headder {
+  color: grey;
 }
 
 .flip-clock-wrapper * {
